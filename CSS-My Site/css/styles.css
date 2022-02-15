@@ -113,6 +113,9 @@ hr{
     font-weight: bold;
     text-decoration: none;
 }
+.footer-link:hover{
+    color: #EAF6F6;
+}
 
 .copyright{
     font-family: 'Montserrat',sans-serif;
@@ -123,6 +126,8 @@ hr{
     margin-bottom: 0px;
 
 }
+
+
 
 
 .para{
