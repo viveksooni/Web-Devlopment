@@ -61,7 +61,13 @@ a{
     width:25%;
     float: right;
     margin-left: 30px;
+    border-radius: 100%;
     
+}
+.java{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
 }
 .python{
     width: 25%;
@@ -83,7 +89,7 @@ a{
 
 .skill-row{
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 120px auto 120px auto;
     text-align: left;
     line-height: 2;
 }
