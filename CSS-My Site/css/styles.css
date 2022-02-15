@@ -23,11 +23,13 @@ h2{
     font-family: 'Montserrat',sans-serif;
     color: #66BFBF;
     margin-top: 10px;
+    font-size:40px;
 }
 
 h3{
     font-family: 'Montserrat',sans-serif;
     color: #11999E;
+    font-size:1.5rem;
 }
 
 a{
@@ -66,8 +68,16 @@ a{
     margin-right: 30px;
 }
 .dp{
-    width:15%;
+    width:25%;
     margin: 30px auto 0 auto;
+    
+}
+
+.profile{
+    
+    width: 50%;
+    margin: 50px auto 100px auto;
+    line-height: 2;
 }
 
 .skill-row{
@@ -80,7 +90,46 @@ a{
 
 hr{
     
-    border-style:dotted;
-    border: solid 0 0 0 0;
-    width: 10%;
+    border-style:none;
+    height :10px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-top: dotted ;
+    border-width: 10px;
+    border-color: #EAF6F6;
+    width: 5%;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer-link{
+    margin:20px;
+    font-family: 'Montserrat',sans-serif;
+    color:#11999E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.copyright{
+    font-family: 'Montserrat',sans-serif;
+    margin: 30px;
+    color:#EAF6F6;
+    font-weight: bold;
+    font-size:12px;
+    margin-bottom: 0px;
+
+}
+
+.btn{
+
+    background-color:#11999E;
+    border-radius: 20%;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 30px;
+
 }
