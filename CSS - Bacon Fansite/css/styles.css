@@ -1,0 +1,24 @@
+h1{
+    font-size: 20px;
+    color: red;  
+}
+#bit:hover{
+color: blue;
+}
+.burger{
+    background-color: goldenrod;
+    width: 150px;
+    
+}
+.bacon:hover{
+    background-color: burlywood;
+    width: 150px;
+}
+#bit {
+    color: blueviolet;
+    
+}
+
+.circle{
+    border-radius: 10%;
+}
