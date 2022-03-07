@@ -1,10 +1,21 @@
 var l = document.querySelectorAll("button");
 for (var i = 0; i < document.querySelectorAll("button").length; i++) {
-  l[i].addEventListener("click", clickButton);
+  l[i].addEventListener("click", function(){
+      var inner = this.innerHTML;
+      clickButton(inner);
+      animationJustsu(inner);
+  });
+
+  l[i].addEventListener("keypress",function(e){
+      clickButton(e.key);
+      animationJustsu(e.key);
+  })
+    
 }
-function clickButton() {
-  this.style.color = "white";
-  switch (this.innerHTML) {
+
+function clickButton(e) {
+  
+  switch (e) {
     case "w":
       var a = new Audio("sounds/crash.mp3");
       break;
@@ -29,4 +40,13 @@ function clickButton() {
   }
 
   a.play();
+}
+
+function animationJustsu(buttonClicked)
+{
+       var k =  document.querySelector("."+buttonClicked);
+       k.classList.add("pressed");
+       
+       setTimeout(function(){k.classList.remove("pressed")},100);
+
 }
