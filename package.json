@@ -1,0 +1,22 @@
+{
+  "name": "web-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bmi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viveksooni/Web-Devlopment.git"
+  },
+  "author": "sir vivek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viveksooni/Web-Devlopment/issues"
+  },
+  "homepage": "https://github.com/viveksooni/Web-Devlopment#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
